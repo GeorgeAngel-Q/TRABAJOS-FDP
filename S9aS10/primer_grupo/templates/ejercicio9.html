@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio9</title>
+</head>
+<body>
+    <h1>EJERCICIO 9: PUNTO DE CHOQUE</h1>
+    <div class="block">
+            <div class="block1">
+            <p class="text">El ejercicio consiste en calcular el kilometro en el que chocarán dos vehiculos que viajan con la misma velocidad y en sentido opuesto, el primero se encuentra en el km. 80 y el otro en el km.160</p>
+            <p>car1=80<br>
+            car2=160<br>
+            d=car2-car1<br><br>
+            while d>0:</p>
+            <p id="while">car1=car1+1<br>
+            car2=car2-1<br>
+            d=car2-car1</p>
+            <p class="valor">El kilómetro en el que chocarán los vehiculos es: {{valor}}</p>
+            </div>
+            <div class="block2">
+                <img src="https://static.epermittest.com/media/filer_public/e5/ce/e5ce85a1-6591-4137-b414-c5b995775b9d/physics-traffic-accidents.jpg">
+            </div>
+    </div>
+    <style>
+    h1{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    body{
+        background-color: darkolivegreen;
+    }
+    .block{
+        display: flex;
+        font-size: 20px;
+    }
+    .block1{
+        flex:1;
+    }
+    #while{
+        padding-left: 25px;
+    }
+    .valor{
+        color: rgb(44, 11, 11);
+    }
+    .text{
+        padding-right: 30px;
+        text-align: justify;
+    }
+    .block2{
+        flex: 1;
+    }
+    .block2 > img {
+        width: 80%;
+        height:80%;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    </style>
+</body>
+</html>

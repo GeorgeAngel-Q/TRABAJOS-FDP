@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/ejercicio1/" >Ejercicio 1</a>
+            <a href="/ejercicio2/" >Ejercicio 2</a>
+            <a href="/ejercicio3/" >Ejercicio 3</a>
+            <a href="/ejercicio4/" >Ejercicio 4</a>
+            <a href="/ejercicio5/" >Ejercicio 5</a>
+            <a href="/home2/" class="btn-menu">Semana 11</a>
+        </nav>
+        <section class="text-header">
+            <h1>Ejercicios de la Semana 9-10</h1>
+            <h2>Estructuras repetitivas: for</h2>
+        </section>
+        <div class="wave"style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M7.62,105.11 C176.35,131.75 501.97,174.19 504.79,103.13 L500.00,150.00 L-55.58,158.39 Z" style="stroke: none; fill: rgb(54, 47, 47);"></path></svg></div>
+    </header>
+    <main></main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-food">
+                <h4>Asignatura</h4>
+                <h4>Fundamentos de Programación</h4>
+            </div>
+            <div class="content-food">
+                <h4>Correo</h4>
+                <h4>2022016381@unfv.edu.pe</h4>
+            </div>
+            <div class="content-food">
+                <h4>Ciclo</h4>
+                <h4>II</h4>
+            </div>
+            <div class="content-food">
+                <h4>Sección</h4>
+                <h4>C</h4>
+            </div>
+        </div>
+        <h2 class="titulo-final">~~George Angel Quispe Mescua~~</h2>
+    </footer>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background: rgb(54, 47, 47);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  
+    background: linear-gradient(to right, hwb(152 60% 5% / 0.445), #1f4037),url(https://fondosmil.com/fondo/17010.jpg);
+    background-size: cover;
+    
+    background-attachment: fixed;
+    position: relative;
+}
+nav{  
+    padding: 30px 50px 0 0;
+    text-align: right;
+}
+nav > a{
+    color:rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    color:rgb(0, 0, 0);
+}
+
+nav .btn-menu{
+    background: rgb(135, 207, 147);
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 20px 18px;
+    color: black;
+    text-transform: uppercase;
+}
+nav .btn-menu:hover{
+    color: rgb(104, 44, 101)
+}
+
+header .text-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.text-header h1{
+    font-size: 50px;
+    color: white;
+}
+.text-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1%;
+   
+}
+footer{
+    padding: 60 px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    background: rgb(54, 47, 47);
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 80px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white ;
+}
+.contenedor-food{
+    text-align: center;
+}
+.content-food h4{
+    color: white;
+    border-bottom: 3px solid #a0d3bb;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+   
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+    padding-bottom: 20px;
+}
+    </style>
+</body>
+</html> 

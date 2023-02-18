@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <header>
+    <h1>Ejercicio1: Probando la lógica de programación</h1>
+    </header>
+    <div class="container-flex">
+        <div class="container-problema">
+            <h3>Problema</h3>
+            <p>El problema que se plantea es el siguiente</p>
+            <p>j=3</p>
+            <p>for i in range(0,10):</p>
+            <p id="if">if i!=0 or i!=5</p>
+            <p id="var1">j=j+1+i</p>
+            <p id="else">else:</p>
+            <p id="var2">j=2</p><br><br><br>
+            La respuesta a que se nos brinda es: {{resultado}}
+        </div>
+        <div class="container-solucion">
+            <h3>Solución</h3>
+            <p>Para resolver el problema, debemos de hacer un análisis detallado de la operación que se está mostrando al lado izquierdo,
+                en la estructura notamos que el for determinará la secuencia con razón predeterminada de "+1" por lo tanto el conteo es corrido, 
+                ahora nos fjamos en la condicional que nos especifica que "i" debe ser diferente de 0 o "i" diferente de 5, el truco consiste en que
+                esta condicion siempre se va a cumplir.<br>
+                Tomando el número 0 si bien este no es diferente de 0, si es diferente de 5. Pasa lo mismo con el 5<br>
+                Entonces siempre se cumplirá la condición y se realizarán ahi las operaciones desde 0 hasta 9.</p>
+            
+        </div>
+    </div>
+<style>
+body{
+    margin: 0;
+    margin-bottom: 50px;
+    background-color: rgba(127, 255, 212, 0.671);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.container-flex{
+    display: flex;
+    margin-top: 40px;
+
+}
+.container-solucion{
+    padding-left: 56px;
+    text-align: justify;
+    justify-content: space-evenly;
+    flex:1;
+    background-color: rgba(165, 42, 42, 0.356);
+    
+    padding-right: 50px;
+}
+.container-problema{
+    padding-left: 56px ;
+    flex: 1;
+    justify-content: center;
+    text-align: left;
+    background-color: rgb(252, 227, 175);
+    padding-bottom: 30px;
+}
+#if{
+    padding-left: 10px;
+    color: rgb(170, 50, 50)
+}
+#var1{
+    padding-left: 25px;
+}
+#else{
+    padding-left: 10px;
+    color: rgb(170, 50, 50)
+}
+#var2{
+    padding-left: 25px
+}
+</style>
+</body>
+</html>

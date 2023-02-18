@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <h1>EJERCICIO 2: SUMATORIA DE NÚMEROS</h1>
+    <div class="cont">
+        <div class="container">
+        <h3>Ejercicio</h3>
+        <p>Diseñando un sistema para su sumatoria usando la estructura for:   </p>
+        <p>k=3</p>
+        <p>for m in range (0,8):</p>
+        <p id="if">if m!=2 and m!=3 and m!=5 and m!=7:</p>
+        <p id="pad">k=k+m</p>
+        <p id="else">else:</p>
+        <p id="pad">k=k+2</p>
+        <p>El resultado de este proceso es: {{resultado}}
+        </p>
+        </div>
+        <div class="img">
+            <h3>Solución</h3>
+            <img src="https://i.ibb.co/cgk1TSJ/tabla1.png" id="img">
+        </div>
+    </div>
+<style>
+body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(177, 136, 212, 0.623);
+    font-family: sans-serif
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+.cont{
+    display: flex;
+    
+}
+.container >p{
+    flex: 1;
+    padding-left: 10px;
+    text-align: left;
+    
+}
+.img{
+    align-items: right;
+    text-align: right;
+    justify-content: space-evenly;
+}
+#img{
+    width: 75%;
+    height: 75%;
+}
+#if{
+    padding-right: 150px;
+    padding-left: 20px;
+    color: rgb(31, 65, 88);
+}
+#else{
+    padding-left: 20px;
+    color: rgb(31, 65, 88);
+}
+#pad{
+    padding-left: 40px;
+}
+</style>
+</body>
+</html>

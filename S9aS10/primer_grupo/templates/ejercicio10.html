@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio10</title>
+</head>
+<body>
+    <h1>EJERCICIO 10: CUPOS LIMITADOS</h1>
+    <div class="contenedor">
+        <div class="text">
+            <h3>Ejercicio</h3>
+            <p>Se ha organizado un evento en el cual el aforo máximo es de 500 personas por lo que se deberá de restringir el número de invitados que se tenia planeado incialmente. ¿Cuántas parejas quedarán fuera?</p>
+            <p>men=450<br>
+            women=250<br>
+            acum=0<br>
+            total=men+women<br><br>
+            while total>500:</p>
+            <p class="while">men=men-5<br>
+            women=women-5<br>
+            total=men+women<br>
+            acum=acum+1</p>
+            <p>El número de grupos de 5 de parejas que se deben quedar fuera del evento son:{{valor}}</p>
+        </div>
+        <div class="img">
+            <h3>Solución</h3>
+            <img src="https://i.ibb.co/cYmmhqj/Whats-App-Image-2023-02-11-at-7-17-17-AM.jpg">
+        </div>
+    </div>
+    <style>
+        h1{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        body{
+            margin: 0 0 0 0; 
+            background-color: rgba(204, 138, 201, 0.664);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .contenedor{
+            display: flex;
+        }
+        .text{
+            flex:1;
+            padding-left: 10px;
+            padding-right: 45px;
+            text-align: justify;
+        }
+        .while{
+            padding-left: 30px;
+        }
+        .img{
+            flex:1;
+        }
+        .img >img{
+            width: 470PX;
+            height: 440PX;
+            
+        }
+        
+    </style>
+</body>
+</html>
