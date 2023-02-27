@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background: rgb(54, 47, 47);
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #1f4037;  
+    background: -webkit-linear-gradient(to right, #156d44, #221f40);  
+    background: linear-gradient(to right, hwb(241 43% 27% / 0.445), #1f4037),url(https://davidreyero.com/wp-content/uploads/2016/03/El_arma_secreta_de_los_mejores_lideres.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+#text{
+   padding-left: 250px;
+   padding-right: 250px;
+}
+ul >li{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+.head{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:65px;
+    background-color: rgb(54, 56, 77);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    margin-left: 30px;
+}
+.logo > a >img{
+  width: 50px;
+  height: 50px;
+}
+.navbar > a{
+    display: block;
+    padding:20px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.navbar >a:hover{
+    background-color: rgb(255, 255, 255);
+    color:black
+}
+header .text-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 55px;
+}
+
+
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1%; 
+}
+
+.title{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(44, 43, 43);
+    margin-bottom: 35px;
+}
+p{
+    margin-bottom: 42px;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    padding: 0 140px;
+}
+.contact{
+    padding: 50px 0;
+    background-color: rgb(54, 56, 77);
+}
+.footer-section{
+    display: flex;
+}
+.f-enlaces{
+    display: flex;
+    flex-direction: column;
+    margin:0 100px;
+}
+.f-enlaces >a{
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+}
+.f-enlaces>a:hover{
+    color: black;
+}
+#actual{
+    color: aquamarine;
+}
+#actual:hover{
+    
+    color:black;
+    
+}
+figure>iframe{
+    border-radius: 4%;
+}
